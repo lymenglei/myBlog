@@ -36,7 +36,7 @@
 
 我们去这个twrp的仓库看它的release(https://github.com/redispade/device_xiaomi_grus-twrp/releases)版本，在前面几个版本中，发布了twrp的同时也发不了vbmeta.img，所以猜测这里二者是有某种关联的。最新的twrp版本中没有vbmeta.img，所以刷机的时候采用了最近发布的一次vbmeta.img。
 
-![1](pic\1.png)
+![1](./pic/1.png)
 
 另外，还需要刷vbmeta.img（有的rom需要刷这个），需要使用最新的fastboot工具，原始的下载链接找不到了，就直接把资源上传上来。在`assets/platform-tools_r29.0.5-windows.zip`
 
@@ -60,7 +60,7 @@
 
 仔细阅读刷机教程：
 
-![2](pic\2.png)
+![2](./pic/2.png)
 
 1. 下载好底包和rom，下载gapps（我选择的是open_gapps-arm64-10.0-nano-20191209-BETA）
 
